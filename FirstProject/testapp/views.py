@@ -3,5 +3,5 @@ from django.http import HttpResponse
 # Create your views here.
 def firstview(request):
 	print('hello')
-    s="Welcoe to Sunil Django Classes...Purely Nursely level classes"
-    return HttpResponse(f"<h1>{s}</h1>")
+	s="Welcoe to Sunil Django Classes...Purely Nursely level classes"
+	return HttpResponse(f"<h1>{s}</h1>")
